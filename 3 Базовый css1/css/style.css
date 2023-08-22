@@ -1,0 +1,102 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'font', sans-serif;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #fff;
+  background-color: #070217;
+}
+
+.logo {
+  display: block;
+  margin-bottom: 50px;
+}
+
+.links {
+  margin-bottom: 50px;
+}
+
+.link {
+  display: inline-block;
+  padding: 24px 49px;
+}
+
+.link:not(:last-child) {
+  margin-right: 25px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 80px 0;
+  width: 1170px;
+}
+
+.header1,
+.header2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  margin-top: 0;
+  max-width: 872px;
+  margin-bottom: 40px;
+}
+
+.grayBlock {
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #f3f3f3;
+}
+
+.grayBlock:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.paragraphForGrayBlock {
+  max-width: 692px;
+  margin-bottom: 10px;
+}
+
+.list {
+  padding-left: 15px;
+}
+
+.elementList:not(:last-child) {
+  padding-bottom: 20px;
+}
+
+.figure {
+  display: inline-block;
+  margin-bottom: 40px;
+  max-width: 872;
+}
+
+.imageNotFigure {
+  margin-bottom: 40px;
+}
